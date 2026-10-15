@@ -1,6 +1,6 @@
 # Unit 37: BEHAVIOR-1K 2026 Challenge
 
-Method: `BDDL subgoals+primitives`. Rollouts: 1 metrics JSON, 1 MP4 videos (one per rollout, hosted separately; link in the portal).
+Method: `BDDL subgoals+primitives`. Rollouts: 5 metrics JSON, 5 MP4 videos (one per rollout, hosted separately; link in the portal).
 
 ## Contents
 
@@ -38,3 +38,7 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | rollout | image | commit | batch |
 |---|---|---|---|
 | clean_a_keyboard_310_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_clean_a_keyboard_310__closed_clean_a_keyboard |
+| installing_smoke_detectors_303_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_installing_smoke_detectors_303__closed_installing_smoke_detectors |
+| installing_smoke_detectors_304_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_installing_smoke_detectors_304__closed_installing_smoke_detectors |
+| turning_on_radio_301_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub211f__closed_turning_on_radio |
+| turning_on_radio_309_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_turning_on_radio_309__closed_turning_on_radio |
