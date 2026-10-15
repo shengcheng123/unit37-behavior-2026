@@ -1,6 +1,6 @@
 # Unit 37: BEHAVIOR-1K 2026 Challenge
 
-Method: `BDDL subgoals+primitives`. Rollouts: 5 metrics JSON, 5 MP4 videos (one per rollout, hosted separately; link in the portal).
+Method: `BDDL subgoals+primitives`. Rollouts: 1 metrics JSON, 1 MP4 videos (one per rollout, hosted separately; link in the portal).
 
 ## Contents
 
@@ -30,3 +30,11 @@ OmniGibson / BEHAVIOR-1K v3.9.3-post1, headless.
 ## Policy serving
 
 Docker image submission. Image: `ghcr.io/shengcheng123/unit37-behavior-2026:sub-6043644a55`. The organizers run OmniGibson outside the container and connect through the WebSocket policy client; the model fits a single 24GB GPU.
+
+## Per-rollout provenance
+
+Each rollout below was produced by the Docker image / source commit listed (the image named under Policy serving is the final one; earlier rollouts came from earlier builds of the same policy).
+
+| rollout | image | commit | batch |
+|---|---|---|---|
+| clean_a_keyboard_310_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_clean_a_keyboard_310__closed_clean_a_keyboard |
