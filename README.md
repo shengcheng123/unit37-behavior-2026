@@ -1,6 +1,6 @@
 # Unit 37: BEHAVIOR-1K 2026 Challenge
 
-Method: `BDDL subgoals+primitives`. Rollouts: 12 metrics JSON, 12 MP4 videos (one per rollout, hosted separately; link in the portal).
+Method: `BDDL subgoals+primitives`. Rollouts: 13 metrics JSON, 13 MP4 videos (one per rollout, hosted separately; link in the portal).
 
 ## Contents
 
@@ -39,13 +39,14 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 |---|---|---|---|
 | clean_a_keyboard_303_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | clean_a_keyboard_310_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_clean_a_keyboard_310__closed_clean_a_keyboard |
+| installing_a_modem_301_0 | b1k-unit37-policy:sub-0e8258a147 | 0e8258a147 | sub12_installing_a_modem_301__closed_installing_a_modem |
 | installing_a_modem_306_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | installing_smoke_detectors_303_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_installing_smoke_detectors_303__closed_installing_smoke_detectors |
 | installing_smoke_detectors_304_0 | b1k-unit37-policy:sub-6043644a55 | 6043644a55 | sub11_installing_smoke_detectors_304__closed_installing_smoke_detectors |
 | installing_smoke_detectors_305_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | picking_up_trash_308_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | store_honey_305_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
-| turning_on_radio_301_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
+| turning_on_radio_301_0 | b1k-unit37-policy:sub-0e8258a147 | 0e8258a147 | sub211h__closed_turning_on_radio |
 | turning_on_radio_307_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | turning_on_radio_308_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | turning_on_radio_309_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
