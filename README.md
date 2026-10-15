@@ -1,6 +1,6 @@
 # Unit 37: BEHAVIOR-1K 2026 Challenge
 
-Method: `BDDL subgoals+primitives`. Rollouts: 21 metrics JSON, 21 MP4 videos (one per rollout, hosted separately; link in the portal).
+Method: `BDDL subgoals+primitives`. Rollouts: 27 metrics JSON, 27 MP4 videos (one per rollout, hosted separately; link in the portal).
 
 ## Contents
 
@@ -38,8 +38,9 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | rollout | image | commit | batch |
 |---|---|---|---|
 | clean_a_keyboard_303_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
-| installing_a_modem_301_0 | b1k-unit37-policy:sub-0e8258a147 | 0e8258a147 | sub12_installing_a_modem_301__closed_installing_a_modem |
+| installing_a_modem_301_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | installing_a_modem_306_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
+| installing_a_modem_307_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | installing_a_modem_310_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | installing_a_scanner_307_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | installing_a_scanner_308_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
@@ -47,9 +48,13 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | installing_smoke_detectors_305_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | installing_smoke_detectors_306_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | picking_up_trash_302_0 | b1k-unit37-policy:sub-0e8258a147 | 0e8258a147 | sub12_picking_up_trash_302__closed_picking_up_trash |
+| picking_up_trash_303_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | picking_up_trash_308_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | picking_up_trash_310_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | putting_shoes_on_rack_305_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
+| setting_mousetraps_301_0 | b1k-unit37-policy:sub-0e8258a147 | 0e8258a147 | sub12_setting_mousetraps_301__closed_setting_mousetraps |
+| setting_mousetraps_309_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
+| store_honey_302_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | store_honey_305_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | store_honey_308_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | tidying_bedroom_301_0 | b1k-unit37-policy:sub-0e8258a147 | 0e8258a147 | sub12_tidying_bedroom_301__closed_tidying_bedroom |
@@ -58,3 +63,4 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | turning_on_radio_307_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | turning_on_radio_308_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
 | turning_on_radio_309_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
+| turning_on_radio_310_0 | rented-GPU-run-at-commit | 0e8258a147 | rent3_results |
