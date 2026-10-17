@@ -1,6 +1,6 @@
 # Unit 37: BEHAVIOR-1K 2026 Challenge
 
-Method: `BDDL subgoals+primitives`. Rollouts: 283 metrics JSON, 283 MP4 videos (one per rollout, hosted separately; link in the portal).
+Method: `BDDL subgoals+primitives`. Rollouts: 343 metrics JSON, 343 MP4 videos (one per rollout, hosted separately; link in the portal).
 
 ## Contents
 
@@ -43,9 +43,12 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | attach_a_camera_to_a_tripod_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card26/gpu0/rent_i1 |
 | attach_a_camera_to_a_tripod_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card25/gpu0/rent_i2 |
 | attach_a_camera_to_a_tripod_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card29/gpu0/rent_i3 |
+| attach_a_camera_to_a_tripod_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card269/gpu0/rent_i4 |
 | attach_a_camera_to_a_tripod_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i7 |
+| attach_a_camera_to_a_tripod_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card272/gpu0/rent_i8 |
 | boxing_books_up_for_storage_305_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i4 |
 | boxing_books_up_for_storage_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i6 |
+| boxing_food_after_dinner_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card208/gpu0/rent_i9 |
 | bringing_in_wood_301_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i0 |
 | bringing_in_wood_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i3 |
 | bringing_water_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i2 |
@@ -54,10 +57,15 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | chop_an_onion_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card209/gpu0/rent_i0 |
 | chop_an_onion_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i2 |
 | chop_an_onion_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i3 |
+| chop_an_onion_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card268/gpu0/rent_i5 |
 | chop_an_onion_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i6 |
 | chop_an_onion_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card265/gpu0/rent_i7 |
+| chop_an_onion_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card234/gpu0/rent_i8 |
+| chop_an_onion_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card264/gpu0/rent_i9 |
 | chopping_wood_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i0 |
+| chopping_wood_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card338/gpu0/rent_i1 |
 | chopping_wood_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card300/gpu0/rent_i2 |
+| chopping_wood_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card209/gpu0/rent_i3 |
 | chopping_wood_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card45/gpu0/rent_i4 |
 | chopping_wood_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i5 |
 | chopping_wood_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card45/gpu0/rent_i6 |
@@ -69,6 +77,7 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | clean_a_keyboard_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i5 |
 | clean_a_keyboard_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i7 |
 | clean_a_keyboard_310_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | sub14_clean_a_keyboard_310 |
+| clean_a_patio_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card216/gpu0/rent_i2 |
 | clean_a_trumpet_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card300/gpu0/rent_i0 |
 | clean_a_trumpet_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card106/gpu0/rent_i2 |
 | clean_a_trumpet_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card57/gpu0/rent_i3 |
@@ -82,12 +91,14 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | clean_boxing_gloves_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card13/gpu0/rent_i5 |
 | clean_up_broken_glass_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i3 |
 | clean_up_broken_glass_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i4 |
+| clean_up_broken_glass_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card247/gpu0/rent_i6 |
 | clean_up_broken_glass_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i7 |
 | clean_up_broken_glass_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i8 |
 | cleaning_up_plates_and_food_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i7 |
 | clearing_food_from_table_into_fridge_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i6 |
 | collecting_aluminum_cans_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card277/gpu0/rent_i0 |
 | collecting_aluminum_cans_302_0 | frozen<-3070-tree-run-at-commit | 0e8258a147 | rent4q_i1 |
+| collecting_aluminum_cans_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card278/gpu0/rent_i2 |
 | collecting_aluminum_cans_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i3 |
 | collecting_aluminum_cans_305_0 | frozen<-3070-tree-run-at-commit | 0e8258a147 | rent4q_i4 |
 | collecting_aluminum_cans_306_0 | frozen<-3070-tree-run-at-commit | 0e8258a147 | rent4q_i5 |
@@ -96,15 +107,20 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | collecting_childrens_toys_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i6 |
 | collecting_childrens_toys_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i8 |
 | collecting_childrens_toys_310_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i9 |
+| composting_waste_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card288/gpu0/rent_i1 |
 | composting_waste_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i3 |
+| composting_waste_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card287/gpu0/rent_i4 |
 | composting_waste_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card7/gpu0/rent_i5 |
 | composting_waste_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card63/gpu0/rent_i6 |
+| composting_waste_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card292/gpu0/rent_i7 |
 | composting_waste_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i8 |
+| cook_a_frozen_pie_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card208/gpu0/rent_i3 |
 | cook_a_frozen_pie_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i9 |
 | cook_broccolini_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card17/gpu0/rent_i3 |
 | cook_broccolini_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card22/gpu0/rent_i6 |
 | cook_broccolini_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card25/gpu0/rent_i8 |
 | cook_broccolini_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card26/gpu0/rent_i9 |
+| cook_hot_dogs_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card239/gpu0/rent_i5 |
 | cook_hot_dogs_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i7 |
 | dispose_of_batteries_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i1 |
 | dispose_of_batteries_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i7 |
@@ -116,7 +132,12 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | dispose_of_glass_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i5 |
 | dispose_of_glass_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i6 |
 | dispose_of_glass_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i7 |
+| dispose_of_glass_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card250/gpu0/rent_i8 |
+| halve_an_egg_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card288/gpu0/rent_i0 |
+| halve_an_egg_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card284/gpu0/rent_i1 |
 | halve_an_egg_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card19/gpu0/rent_i2 |
+| halve_an_egg_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card285/gpu0/rent_i3 |
+| halve_an_egg_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card289/gpu0/rent_i4 |
 | halve_an_egg_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i5 |
 | halve_an_egg_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i6 |
 | halve_an_egg_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card291/gpu0/rent_i8 |
@@ -132,12 +153,15 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | hiding_Easter_eggs_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i5 |
 | hiding_Easter_eggs_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i8 |
 | hiding_Easter_eggs_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card38/gpu0/rent_i9 |
+| installing_a_fax_machine_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card235/gpu0/rent_i0 |
 | installing_a_fax_machine_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card254/gpu0/rent_i1 |
+| installing_a_fax_machine_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card254/gpu0/rent_i2 |
 | installing_a_fax_machine_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card257/gpu0/rent_i3 |
 | installing_a_fax_machine_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i4 |
 | installing_a_fax_machine_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card22/gpu0/rent_i5 |
 | installing_a_fax_machine_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card25/gpu0/rent_i6 |
 | installing_a_fax_machine_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i7 |
+| installing_a_fax_machine_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card257/gpu0/rent_i8 |
 | installing_a_fax_machine_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card18/gpu0/rent_i9 |
 | installing_a_modem_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i0 |
 | installing_a_modem_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card15/gpu0/rent_i2 |
@@ -169,6 +193,7 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | installing_smoke_detectors_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i8 |
 | installing_smoke_detectors_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i9 |
 | loading_the_car_302_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i1 |
+| make_cabinet_doors_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card245/gpu0/rent_i0 |
 | make_cabinet_doors_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card109/gpu0/rent_i1 |
 | make_cabinet_doors_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card259/gpu0/rent_i2 |
 | make_cabinet_doors_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card21/gpu0/rent_i4 |
@@ -178,13 +203,18 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | make_cabinet_doors_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card266/gpu0/rent_i8 |
 | make_cabinet_doors_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card286/gpu0/rent_i9 |
 | make_gift_bags_for_baby_showers_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card52/gpu0/rent_i9 |
+| make_microwave_popcorn_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card279/gpu0/rent_i1 |
 | make_microwave_popcorn_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card277/gpu0/rent_i5 |
+| make_microwave_popcorn_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card277/gpu0/rent_i6 |
 | make_microwave_popcorn_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i7 |
+| make_microwave_popcorn_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card278/gpu0/rent_i8 |
 | make_rose_centerpieces_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card32/gpu0/rent_i0 |
 | make_rose_centerpieces_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card34/gpu0/rent_i2 |
 | make_rose_centerpieces_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card36/gpu0/rent_i3 |
+| make_rose_centerpieces_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card281/gpu0/rent_i4 |
 | make_rose_centerpieces_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i5 |
 | make_rose_centerpieces_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card32/gpu0/rent_i6 |
+| make_rose_centerpieces_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card283/gpu0/rent_i7 |
 | make_rose_centerpieces_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card31/gpu0/rent_i8 |
 | make_rose_centerpieces_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i9 |
 | moving_boxes_to_storage_301_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i0 |
@@ -192,6 +222,8 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | moving_boxes_to_storage_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i2 |
 | moving_boxes_to_storage_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i8 |
 | organizing_art_supplies_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i1 |
+| organizing_art_supplies_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card217/gpu0/rent_i4 |
+| organizing_art_supplies_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card235/gpu0/rent_i5 |
 | organizing_art_supplies_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card208/gpu0/rent_i6 |
 | organizing_art_supplies_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card208/gpu0/rent_i8 |
 | outfit_a_basic_toolbox_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card16/gpu0/rent_i6 |
@@ -206,12 +238,22 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | picking_up_trash_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i7 |
 | picking_up_trash_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i8 |
 | picking_up_trash_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i9 |
+| polishing_shoes_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card295/gpu0/rent_i0 |
+| polishing_shoes_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card294/gpu0/rent_i1 |
+| polishing_shoes_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card293/gpu0/rent_i3 |
 | polishing_shoes_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i5 |
+| polishing_shoes_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card297/gpu0/rent_i6 |
+| polishing_shoes_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card296/gpu0/rent_i7 |
 | put_together_a_basic_pruning_kit_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card17/gpu0/rent_i2 |
+| put_together_a_basic_pruning_kit_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card336/gpu0/rent_i3 |
+| put_together_a_basic_pruning_kit_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card290/gpu0/rent_i4 |
+| put_together_a_basic_pruning_kit_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card299/gpu0/rent_i6 |
+| put_together_a_basic_pruning_kit_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card50/gpu0/rent_i8 |
 | putting_away_Halloween_decorations_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card43/gpu0/rent_i0 |
 | putting_away_Halloween_decorations_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i1 |
 | putting_away_Halloween_decorations_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card42/gpu0/rent_i2 |
 | putting_away_Halloween_decorations_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i3 |
+| putting_away_Halloween_decorations_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card226/gpu0/rent_i4 |
 | putting_away_Halloween_decorations_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i5 |
 | putting_away_Halloween_decorations_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i6 |
 | putting_away_Halloween_decorations_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i7 |
@@ -220,6 +262,7 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | putting_away_toys_305_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i4 |
 | putting_dirty_dishes_in_sink_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i4 |
 | putting_shoes_on_rack_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card40/gpu0/rent_i1 |
+| putting_shoes_on_rack_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card227/gpu0/rent_i2 |
 | putting_shoes_on_rack_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i3 |
 | putting_shoes_on_rack_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i4 |
 | putting_shoes_on_rack_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card41/gpu0/rent_i5 |
@@ -227,12 +270,18 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | putting_shoes_on_rack_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card40/gpu0/rent_i7 |
 | putting_shoes_on_rack_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i8 |
 | putting_shoes_on_rack_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i9 |
+| re_shelving_library_books_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card276/gpu0/rent_i0 |
+| re_shelving_library_books_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card275/gpu0/rent_i1 |
+| re_shelving_library_books_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card272/gpu0/rent_i3 |
 | re_shelving_library_books_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i5 |
+| re_shelving_library_books_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card271/gpu0/rent_i7 |
+| re_shelving_library_books_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card273/gpu0/rent_i8 |
 | re_shelving_library_books_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i9 |
 | rearrange_your_room_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card19/gpu0/rent_i1 |
 | rearrange_your_room_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card18/gpu0/rent_i2 |
 | rearrange_your_room_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card23/gpu0/rent_i3 |
 | rearrange_your_room_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card24/gpu0/rent_i5 |
+| rearrange_your_room_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card244/gpu0/rent_i6 |
 | rearrange_your_room_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i8 |
 | rearrange_your_room_310_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i9 |
 | scrubbing_bathroom_floor_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card12/gpu0/rent_i0 |
@@ -247,6 +296,7 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | setting_mousetraps_302_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | sub12_setting_mousetraps_302 |
 | setting_mousetraps_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i2 |
 | setting_mousetraps_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i3 |
+| setting_mousetraps_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card202/gpu0/rent_i4 |
 | setting_mousetraps_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i5 |
 | setting_mousetraps_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card30/gpu0/rent_i6 |
 | setting_mousetraps_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i7 |
@@ -255,7 +305,9 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | sorting_books_on_shelf_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card50/gpu0/rent_i3 |
 | sorting_bottles_cans_and_paper_305_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | rent4p_i4 |
 | spraying_for_bugs_301_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | sub14_spraying_for_bugs_301 |
+| spraying_for_bugs_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card280/gpu0/rent_i3 |
 | spraying_for_bugs_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i7 |
+| spraying_for_bugs_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card281/gpu0/rent_i9 |
 | spraying_fruit_trees_301_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | sub14_spraying_fruit_trees_301 |
 | spraying_fruit_trees_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card294/gpu0/rent_i2 |
 | spraying_fruit_trees_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i3 |
@@ -263,10 +315,12 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | spraying_fruit_trees_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i5 |
 | spraying_fruit_trees_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i7 |
 | spraying_fruit_trees_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card295/gpu0/rent_i8 |
+| spraying_fruit_trees_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card291/gpu0/rent_i9 |
 | store_batteries_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card4/gpu0/rent_i0 |
 | store_batteries_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card84/gpu0/rent_i2 |
 | store_batteries_304_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i3 |
 | store_batteries_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i4 |
+| store_batteries_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card91/gpu0/rent_i7 |
 | store_batteries_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card95/gpu0/rent_i8 |
 | store_batteries_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card66/gpu0/rent_i9 |
 | store_honey_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i1 |
@@ -279,7 +333,10 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | store_honey_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i8 |
 | store_honey_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card10/gpu0/rent_i9 |
 | store_produce_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i5 |
+| sweeping_garage_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card277/gpu0/rent_i1 |
 | sweeping_garage_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card57/gpu0/rent_i9 |
+| thawing_frozen_food_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card300/gpu0/rent_i5 |
+| thawing_frozen_food_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card50/gpu0/rent_i6 |
 | tidying_bathroom_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i5 |
 | tidying_bathroom_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i6 |
 | tidying_bathroom_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card2/gpu0/rent_i8 |
@@ -290,6 +347,8 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | tidying_bedroom_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card1/gpu0/rent_i5 |
 | tidying_bedroom_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card5/gpu0/rent_i6 |
 | tidying_bedroom_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i7 |
+| tidying_bedroom_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card205/gpu0/rent_i8 |
+| tidying_bedroom_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card218/gpu0/rent_i9 |
 | tidying_living_room_301_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card295/gpu0/rent_i0 |
 | tidying_living_room_302_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i1 |
 | tidying_living_room_303_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card294/gpu0/rent_i2 |
@@ -297,6 +356,7 @@ Each rollout below was produced by the Docker image / source commit listed (the 
 | tidying_living_room_305_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card296/gpu0/rent_i4 |
 | tidying_living_room_306_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card3/gpu0/rent_i5 |
 | tidying_living_room_307_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card6/gpu0/rent_i6 |
+| tidying_living_room_308_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card298/gpu0/rent_i7 |
 | tidying_living_room_309_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card297/gpu0/rent_i8 |
 | tidying_living_room_310_0 | frozen<-rented-GPU-run-at-commit | 0e8258a147 | card293/gpu0/rent_i9 |
 | turning_on_radio_301_0 | frozen<-p1g6-tree-run-at-commit | 0e8258a147 | sub211h |
